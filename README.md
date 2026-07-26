@@ -116,11 +116,7 @@ All datasets sourced from:
 | F1-Score | 86.00% | 87.36% | +1.36% ✅ |
 | AROC | 0.840 | 0.903 | +0.063 ✅ |
 
----
 
-## Project Structure
-
----
 
 ## Implementation Details
 
@@ -246,16 +242,16 @@ Seven metrics computed for all 9 experiments:
 
 ---
 
-## Author
-| Name | 
-|---|
-| S.M. Shazzed Hossain Shajal 
+## 👤 Author Information
 
-**Course:** Neural Network
-**Institution:** Military Institute of Science and Technology (MIST)
-**Department:** Computer Science and Engineering
-**Supervisor:** Dr. Nusrat Sharmin
-**Year:** 2026
+| Field | Details |
+|---|---|
+| **Author** | S.M. Shazzed Hossain Shajal |
+| **Course** | Neural Network |
+| **Institution** | Military Institute of Science and Technology (MIST) |
+| **Department** | Computer Science and Engineering |
+| **Supervisor** | Dr. Nusrat Sharmin |
+| **Year** | 2026 |
 
 ---
 
@@ -283,11 +279,11 @@ vol. 6, no. 2, pp. 987-1008, 2024.
 
 ---
 
-## License
+## 📜 License
 
-This project is submitted as a course requirement
-for the Neural Network course at MIST.
-For academic use only.
+This project is licensed under the [MIT License](LICENSE).
+
+> **Academic Note:** Developed as a course requirement for the **Neural Network** course under the **MSc in Computer Science and Engineering** program at the Military Institute of Science and Technology (MIST).
 
 ---
 
