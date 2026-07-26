@@ -61,16 +61,32 @@ All datasets sourced from:
 
 ## Methodology
 
-## ⚙️ Methodology
-
-
-graph TD
-    A[Raw Data] --> B[Adaptive Preprocessing<br/><i>Mean/KNN Imputation + MinMax Normalization</i>]
-    B --> C[Train/Test Split 70/30<br/>+ SMOTE Balancing]
-    C --> D[Metaheuristic Feature Selection<br/><i>AOA / WOA / GWO</i>]
-    D --> E[MLPNN Classification]
-    E --> F[Performance Evaluation<br/><i>7 Metrics</i>]
-└─────────────────────────┘
+> **Raw Data**
+> 
+> $\downarrow$
+> 
+> **Adaptive Preprocessing**  
+> *(Mean / KNN Imputation + MinMax Normalization)*
+> 
+> $\downarrow$
+> 
+> **Data Partitioning & Balancing**  
+> *(Train / Test Split 70/30 + SMOTE Balancing)*
+> 
+> $\downarrow$
+> 
+> **Metaheuristic Feature Selection**  
+> *(Arithmetic Optimization Algorithm / Whale Optimization / Grey Wolf Optimizer)*
+> 
+> $\downarrow$
+> 
+> **MLPNN Classification**  
+> *(Multilayer Perceptron Neural Network)*
+> 
+> $\downarrow$
+> 
+> **Performance Evaluation**  
+> *(Evaluated across 7 standard metrics)*
 ---
 
 ## Results
