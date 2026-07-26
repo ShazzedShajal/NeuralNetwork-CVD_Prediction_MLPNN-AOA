@@ -1,5 +1,6 @@
-# An AOA-Optimized Multilayer Perceptron Neural Network
-# For CVD Prediction Across Multi-Cohort Datasets
+
+# Generalizing MLPNN-Based Cardiovascular Disease Prediction Across Multi-Cohort Datasets 
+# Using Metaheuristic Feature Selection With KNN Imputation And SMOTE Balancing
 
 [![Python](https://img.shields.io/badge/Python-3.12-blue)]()
 [![Platform](https://img.shields.io/badge/Platform-Google%20Colab-orange)]()
