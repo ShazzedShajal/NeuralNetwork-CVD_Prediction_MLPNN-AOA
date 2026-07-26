@@ -60,20 +60,33 @@ All datasets sourced from:
 ---
 
 ## Methodology
-Raw Data
-↓
-Adaptive Preprocessing
-(Mean/KNN Imputation + MinMax Normalization)
-↓
-Train/Test Split (70/30) + SMOTE Balancing
-↓
-Metaheuristic Feature Selection
-(AOA / WOA / GWO)
-↓
-MLPNN Classification
-↓
-Performance Evaluation (7 metrics)
 
+[ Raw Data ]
+        │
+        ▼
+┌─────────────────────────┐
+│  Adaptive Preprocessing │  (Mean/KNN Imputation + MinMax Normalization)
+└───────────┬─────────────┘
+│
+▼
+┌─────────────────────────┐
+│ Train/Test Split (70/30)│  + SMOTE Class Balancing
+└───────────┬─────────────┘
+│
+▼
+┌─────────────────────────┐
+│  Feature Selection      │  (AOA / WOA / GWO Metaheuristics)
+└───────────┬─────────────┘
+│
+▼
+┌─────────────────────────┐
+│  MLPNN Classification   │  (Multilayer Perceptron Neural Network)
+└───────────┬─────────────┘
+│
+▼
+┌─────────────────────────┐
+│ Performance Evaluation  │  (Evaluated across 7 metrics)
+└─────────────────────────┘
 ---
 
 ## Results
@@ -233,14 +246,10 @@ Seven metrics computed for all 9 experiments:
 
 ---
 
-## Team
-
-| Name | Role |
-|---|---|
-| S.M. Shazzed Hossain Shajal | [Role] |
-| Mahmud Hasan | [Role] |
-| Sumaiya Fatima | [Role] |
-| Ommay Aiyman | [Role] |
+## Author
+| Name | 
+|---|
+| S.M. Shazzed Hossain Shajal 
 
 **Course:** Neural Network
 **Institution:** Military Institute of Science and Technology (MIST)
