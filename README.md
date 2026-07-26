@@ -61,31 +61,15 @@ All datasets sourced from:
 
 ## Methodology
 
-[ Raw Data ]
-        │
-        ▼
-┌─────────────────────────┐
-│  Adaptive Preprocessing │  (Mean/KNN Imputation + MinMax Normalization)
-└───────────┬─────────────┘
-│
-▼
-┌─────────────────────────┐
-│ Train/Test Split (70/30)│  + SMOTE Class Balancing
-└───────────┬─────────────┘
-│
-▼
-┌─────────────────────────┐
-│  Feature Selection      │  (AOA / WOA / GWO Metaheuristics)
-└───────────┬─────────────┘
-│
-▼
-┌─────────────────────────┐
-│  MLPNN Classification   │  (Multilayer Perceptron Neural Network)
-└───────────┬─────────────┘
-│
-▼
-┌─────────────────────────┐
-│ Performance Evaluation  │  (Evaluated across 7 metrics)
+## ⚙️ Methodology
+
+
+graph TD
+    A[Raw Data] --> B[Adaptive Preprocessing<br/><i>Mean/KNN Imputation + MinMax Normalization</i>]
+    B --> C[Train/Test Split 70/30<br/>+ SMOTE Balancing]
+    C --> D[Metaheuristic Feature Selection<br/><i>AOA / WOA / GWO</i>]
+    D --> E[MLPNN Classification]
+    E --> F[Performance Evaluation<br/><i>7 Metrics</i>]
 └─────────────────────────┘
 ---
 
