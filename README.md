@@ -1,6 +1,5 @@
 
-# Generalizing MLPNN-Based Cardiovascular Disease Prediction Across Multi-Cohort Datasets 
-# Using Metaheuristic Feature Selection With KNN Imputation And SMOTE Balancing
+# Generalizing MLPNN-Based Cardiovascular Disease Prediction Across Multi-Cohort Datasets Using Metaheuristic Feature Selection With KNN Imputation And SMOTE Balancing
 
 [![Python](https://img.shields.io/badge/Python-3.12-blue)]()
 [![Platform](https://img.shields.io/badge/Platform-Google%20Colab-orange)]()
